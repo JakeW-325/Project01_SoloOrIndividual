@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    padding: 30px 10px;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.Home {
+    padding: 25px;
+    flex-grow: 1;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
